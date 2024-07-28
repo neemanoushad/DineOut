@@ -1,0 +1,12 @@
+footer{
+    left:0;
+    bottom:0;
+    background-color: brown;
+    margin-top: 100px;
+    padding:20px;
+    color:white;
+
+    margin-bottom: 10px;
+   
+    width:100%;
+}

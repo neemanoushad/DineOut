@@ -1,0 +1,55 @@
+.food-details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.food-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    margin-bottom: 100px;
+    margin-right:10px ;
+
+}
+.title{
+   text-align: start;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+     
+    
+}
+.desp{
+    font-size: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+.price{
+    font-size: 20px;
+    color:red;
+}
+.btn-order{
+background-color: rgb(37, 135, 168);
+border: none;
+padding:10px;
+width:100px
+}
+.btn-order:hover{
+    background-color: lightblue;
+
+}
+.btn-go{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}

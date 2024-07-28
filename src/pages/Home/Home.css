@@ -1,0 +1,46 @@
+.home {
+    font-family: 'freight-text-pro', sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  .hero {
+    background: url('../../Components/Data/images/chef.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 7, 7);
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .reserve-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reserve-button:hover {
+    background-color: #ee5a3f;
+  }
+@media(max-width: 768px){
+.hero{
+ width:  100%;
+ 
+}
+}
